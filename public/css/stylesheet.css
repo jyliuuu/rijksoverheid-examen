@@ -1,0 +1,181 @@
+.logo-centered {
+    display: block;
+    margin-left: 48.7%;
+    margin-right: auto;
+    margin-top: -0.5%;
+    width: 8%;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*                                    NAVBAR                                                */
+/*------------------------------------------------------------------------------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    overflow: hidden;
+    background-color: #01689b;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.nav-element {
+    margin-top: .5%;
+    font-size: 150%;
+}
+
+.arrow-transform
+{
+    filter: invert(100%);
+    margin-top: 50%;
+    width: 40px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*                                    FOOTER                                                */
+/*------------------------------------------------------------------------------------------*/
+
+.footer-element {
+    margin-top: .5%;
+    font-size: 150%;
+}
+
+.footer-fill {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 520px;
+    overflow: hidden;
+    background-color: #01689b;
+}
+
+.footer-serif
+{
+    color: white;
+    font-weight: 500;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.footer-header
+{
+    font-weight: 400;
+    color: white;
+    text-align: right;
+}
+
+.footer-elements
+{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-elements:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.arrow-footer
+{
+    filter: invert(100%);
+    width: 25px;
+}
+
+
+.container-footer {
+    margin: auto;
+    width: 60%;
+}
+
+.footer-about
+{
+    font-weight:400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*                                    HOME                                                  */
+/*------------------------------------------------------------------------------------------*/
+
+
+.home-landscape
+{
+    z-index: -1;
+    margin-top: -1%;
+    object-position: 100% 40%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50%;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*                                    CONTENT                                               */
+/*------------------------------------------------------------------------------------------*/
+
+.page-header
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+.page-content
+{
+    font-weight:400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/*                                    LOGIC                                                 */
+/*------------------------------------------------------------------------------------------*/
+.container-content {
+    margin: auto;
+    width: 40%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.fs-xs
+{
+    min-height: 25px;
+}
+
+.fs-xs-footer
+{
+    min-height: 40px;
+}
+
+.fs-s
+{
+    min-height: 50px;
+}
+
+.fs-m
+{
+    min-height: 75px;
+}
+
+.fs-l
+{
+    min-height: 120px;
+}
