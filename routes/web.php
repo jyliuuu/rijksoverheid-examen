@@ -14,13 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/welkom', function () {
     return view('user.welkom');
 });
 
 Route::get('/over-eanse', function () {
     return view('user.overeanse');
 });
+
+Route::get('/eanse-login', function () {
+    return view('auth.login');
+})->name('eanse.login');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';

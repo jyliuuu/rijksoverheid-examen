@@ -1,7 +1,34 @@
 @extends('master')
 
 @section('content')
-    <img class="home-landscape" src="{{ asset('images/arnhem.jpg') }}"/>
+
+    <div class="container-image">
+        <img class="home-landscape" src="{{ asset('images/arnhem.jpg') }}"/>
+        <div class="text-block">
+            <h4 class="page-content">Welkom examen-kandidaat.</h4>
+            <a href="{{ url('/eanse-login') }}" class="remove-td">
+                <h6 class="image-elements">
+                    <img class="arrow-image"
+                         src="{{ asset('images/greater-than-symbol.png') }}"
+                         alt=""> eANSE login</h6>
+            </a>
+
+            <a href="{{ url('/over-mij') }}" class="remove-td">
+                <h6 class="image-elements">
+                    <img class="arrow-image"
+                         src="{{ asset('images/greater-than-symbol.png') }}"
+                         alt=""> Algemene regels examens</h6>
+            </a>
+
+            <a href="{{ url('/copyright') }}" class="remove-td">
+                <h6 class="image-elements">
+                    <img class="arrow-image"
+                         src="{{ asset('images/greater-than-symbol.png') }}"
+                         alt=""> Aanmelden eANSE examencommissie</h6>
+            </a>
+        </div>
+    </div>
+
     <div class="fs-s"></div>
 
     <div class="container-content">
@@ -14,10 +41,11 @@
                 ➜ Uw naam en achternaam <br>
                 ➜ Unieke 'e-code'
                 <div class="fs-xs"></div>
-                U kunt nu verder naar het <a href="{{ url('/eanse-login') }}">login pagina van eANSE</a>, veel success.
+                U kunt dan verder naar het <a href="{{ url('/eanse-login') }}">
+                    login pagina van eANSE</a>, veel success met uw examen.
                 <div class="fs-xs"></div>
-                (?) Mocht u een paar dingen missen die nodig zijn voor verificatie, roep
-                dan uw huidige examinator voor hulp.
+                (?) Mocht u toch een paar dingen missen die nodig zijn voor uw verificatie, roep
+                dan de huidige examinator voor hulp.
             </h5>
 
         <div class="fs-s"></div>

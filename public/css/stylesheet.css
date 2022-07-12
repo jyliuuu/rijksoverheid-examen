@@ -6,6 +6,32 @@
     width: 8%;
 }
 
+.logo_login-centered
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.7%;
+    width: 2.7%;
+}
+
+.arrow-login
+{
+    filter: invert(100%);
+    width: 25px;
+}
+
+.login_text-block {
+    top: 40px;
+    left: 18%;
+    background-color: #F5F5F5;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 80px;
+}
+
 /*------------------------------------------------------------------------------------------*/
 /*                                    NAVBAR                                                */
 /*------------------------------------------------------------------------------------------*/
@@ -33,7 +59,6 @@ li a {
 
 li a:hover {
     color: white;
-    text-decoration: none;
     text-decoration: underline;
 }
 
@@ -120,13 +145,48 @@ li a:hover {
 {
     z-index: -1;
     margin-top: -1%;
-    object-position: 100% 40%;
+    object-position: 100% 45%;
     object-fit: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 50%;
+    height: 40%;
+}
+
+.container-image
+{
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    top: 40px;
+    left: 18%;
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 80px;
+}
+
+.remove-td
+{
+    text-decoration: none;
+}
+
+.image-elements
+{
+    font-weight: 400;
+    text-decoration: none;
+    color: #01689b;
+}
+
+.arrow-image
+{
+    filter: invert(17%) sepia(100%) saturate(3459%) hue-rotate(185deg) brightness(89%) contrast(105%);
+    width: 25px;
 }
 
 /*------------------------------------------------------------------------------------------*/

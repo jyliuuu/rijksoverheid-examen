@@ -20,7 +20,7 @@
             <h5 class="page-content">
                 De introductie van het eANSE systeem was in het begin van 2022 mogelijk gemaakt binnen
                 het eerste kamer, waarin ze het meerderheid hebben bereikt voor een totaal
-                nieuwe examinering binnenin het onderwijs sector in Nederland.
+                nieuwe examinering systeem binnen het onderwijs sector in Nederland.
                 <br><div class="fs-xs"></div>
                 Het eANSE was al in het begin van 2019 in ontwikkeling doordat er al veel
                 ontevreden hing rondom het examens. Dit proces werdt helaas vertraagd in verband
