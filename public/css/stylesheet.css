@@ -215,6 +215,11 @@ li a:hover {
     text-align: center;
 }
 
+.margin-right
+{
+    margin-left: 5%;
+}
+
 .fs-xs
 {
     min-height: 25px;
